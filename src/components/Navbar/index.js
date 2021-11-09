@@ -6,7 +6,7 @@ const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
-                <NavbarContainer>
+                <NavbarContainer >
                     <NavLogo to='/'>
                         FishinMission
                     </NavLogo>
@@ -22,7 +22,7 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
-                <NavBtn>
+                <NavBtn >
                     <NavBtnLink to="/mint">Mint</NavBtnLink>
                 </NavBtn>
             </Nav>
